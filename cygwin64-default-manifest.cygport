@@ -1,0 +1,15 @@
+NAME="cygwin64-default-manifest"
+VERSION=6.3
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Default application manifest for Cygwin64 toolchain"
+DESCRIPTION="The Default Windows application manifest is linked to
+applications by default to claim compatibility with the latest Windows
+versions.  The package version number reflects the latest Windows kernel
+version supported by this manifest."
+
+CVS_URI=":pserver:anoncvs@sourceware.org:/cvs/cygwin-apps"
+CVS_MODULE="windows-default-manifest"
+CVS_BRANCH="release-${PV//\./_}"
+CROSS_HOST="x86_64-pc-cygwin"
+inherit cvs cross
