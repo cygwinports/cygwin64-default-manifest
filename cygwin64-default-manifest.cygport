@@ -1,5 +1,5 @@
 NAME="cygwin64-default-manifest"
-VERSION=6.3
+VERSION=6.4
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Default application manifest for Cygwin64 toolchain"
